@@ -1,0 +1,26 @@
+:root{
+	--dark: #020515 !important;
+	--light: #e5e5e5 !important;
+	--darks: rgba(0,0,0,0.3) !important;
+	--lights: rgba(255,255,255,.8)!important; }
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+
+}
+img{
+	outline: none;
+	overflow: hidden;
+}
+
+.out-none{
+	outline: none;
+}
+.text-blue{
+	color: #0050ff;
+}
+
+

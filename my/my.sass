@@ -1,0 +1,149 @@
+
+
+
+
+$light: var(--light)
+$dark: var(--dark)
+$darks: var(--darks)
+$lights: var(--lights)
+
+
+body
+	background: $light !important
+	margin: 0
+	padding: 0
+
+.darkmode
+	--light: #000039
+	--dark: #b3b3b3
+	--lights: rgba(0,0,0,1)
+	--darks: rgba(255,255,255,.3)
+
+footer
+	margin-bottom: 0
+	position: flex
+	padding-bottom: 0
+
+.border
+	border-radius: 15px !important
+	box-shadow: -8px -8px 10px $lights,7px 7px 10px $darks !important
+
+.nbo
+	background: $light
+
+.daf
+    width: 159px !important
+
+.center
+	display: flex
+	align-items: center
+	justify-content: center
+
+
+.nav-link
+	color: $dark !important
+	text-align: center
+
+.nav-item>.nav-link:hover
+    box-shadow: inset -7px -7px 13px $lights,inset 7px 7px 13px $darks
+
+.nav-item>.nav-link
+	background: $light
+
+.nav-item
+   margin: 2px
+
+.nav>.btn
+	background: $light
+	width: 100%
+
+.promoimg> div >img
+    height: 250px
+    width: 100%
+
+.productsimg
+    height: 120px
+    width: 100px
+    margin: 5px
+
+.mybg-light
+    background: var($light) !important
+
+.search-btn
+    background: #ff5500
+    font-size: 25px
+    color: #fff
+    width: 43px
+    height: 43px
+    margin-left: 15px
+
+.logoimg
+    width: 150px
+    height: 120px
+
+.brand-box> h1,
+    position: absolute
+
+.probrand-title
+    background: #f00
+    border-radius: 20px 10px 20px 10px
+    box-shadow: -8px -8px 10px rgba(255,0,0,0.5), 7px 7px 10px $darks
+
+.brand-img
+    z-index: 0
+    position: relative 
+
+.brand-box> h1
+    z-index: 3
+
+.contect>p,.contect>a
+    color: $dark
+
+
+
+
+.loaderp>img
+    width: 100px
+    height: 100px
+    margin-top: 50vh
+    border-radius: 50%
+
+.boughtsimg
+    width: 100px
+    height: 120px
+
+.fa-cart-plus
+    color: #fff
+
+@media only screen and (max-width: 720px)
+	.search
+	    width: 200px
+
+
+@media only screen and (max-width: 300px)
+	.search
+	     width: 230px
+
+.proimg
+    height: 200px
+
+
+.offcanvas
+    background: $light !important
+
+
+
+
+.smallimg
+    height: 150px
+    width: 100px
+    outline: none
+    padding: 0
+    border: 2px solid #000
+    border-radius: 18px
+
+.title
+    color: $dark !important
+
+
+
